@@ -1,0 +1,29 @@
+.content {
+	position: relative;
+}
+
+.node {
+	position: absolute;
+	border: 1px solid black;
+	top: 200px;
+	left: 200px;
+	width: 100px;
+	height: 50px;
+	background-color: gray;
+}
+
+.node textarea {
+	margin: 10px;
+	width: 75px;
+	height: 25px;
+	background-color: gray;
+}
+
+.node textarea:focus {
+	background-color: white;
+}
+
+.branch {
+	position: absolute;
+	border: 1px solid black;
+}
